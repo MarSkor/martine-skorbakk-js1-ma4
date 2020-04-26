@@ -19,5 +19,5 @@ function createGameDetails(game) {
 
   const newImg = document.querySelector(".image");
   const imgPath = game.background_image;
-  newImg.style.backgroundImage = "url(" + imgPath + ")";
+  newImg.style.backgroundImage = `url(${imgPath})`;
 }
